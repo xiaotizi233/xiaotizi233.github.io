@@ -1,0 +1,365 @@
+@charset "UTF-8";
+
+$rem:75;
+
+*{
+    padding: 0rem;
+    margin: 0rem;
+    font-family: "微软雅黑";
+}
+li{list-style: none;}
+img{
+    width: 100%;
+    height: auto;
+}
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    background:url(../images/beijing@2x.png)no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    p{
+        width:20/$rem*1rem;
+        height: auto;
+        margin-left:617/$rem*1rem;
+        margin-top: 85/$rem*1rem;
+        font-family: "华文仿宋";
+        font-size: 25/$rem*1rem;
+    }  
+    div{
+        width: 280/$rem*1rem;
+        height: 453/$rem*1rem;
+        margin:-90/$rem*1rem auto;
+        position: relative;
+        div{
+            display: inline-block;
+            width: auto;
+            height: auto;
+            position: absolute;
+        }
+        div:first-child{
+            left: 64/$rem*1rem;
+            z-index: 999;
+            img{
+                width: 145/$rem*1rem;
+                height: 162/$rem*1rem;
+            }
+        }
+        div:nth-child(3){
+            left: 32/$rem*1rem;
+            top: 250/$rem*1rem;
+            z-index: 999;
+            img{
+                width: 145/$rem*1rem;
+                height: 162/$rem*1rem;
+            }
+        }
+        div:nth-child(2){
+            top:75/$rem*1rem;
+            left: -10/$rem*1rem;
+            #yuan{
+                width:256/$rem*1rem;
+                height: 256/$rem*1rem;
+            }
+        }
+        div:last-child{
+            top:100/$rem*1rem;
+            left:80/$rem*1rem;
+            img{
+                width:200/$rem*1rem;
+                height:350/$rem*1rem;
+            }
+        }
+    }
+    #deng{
+        color: white;
+        margin: 80/$rem*1rem auto;
+        width: 670/$rem*1rem;
+        height: 85/$rem*1rem;
+        background: url(../images/kuang@2x.png)no-repeat;
+        background-size: 100% 100%;
+        font-size: 40/$rem*1rem;
+        line-height: 80/$rem*1rem;
+        text-align: center;
+    }
+    #deng:hover{
+        background: url(../images/kaung2@2x.png)no-repeat;
+        background-size: 100% 100%;
+    }
+    #zhu{
+        color: white;
+        margin: 80/$rem*1rem auto;
+        width: 670/$rem*1rem;
+        height: 85/$rem*1rem;
+        background: url(../images/kuang@2x.png)no-repeat;
+        background-size: 100%;
+        font-size: 40/$rem*1rem;
+        line-height: 80/$rem*1rem;
+        text-align: center;
+    }
+    #zhu:hover{
+        background: url(../images/kaung2@2x.png)no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+.page2{
+    width: 100%;
+    height: 100vh;
+    background:url(../images/page2beijing@2x.png)no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    div:first-child{
+        width: 100%;
+        height: 40/$rem*1rem;
+        font-size: 43/$rem*1rem;
+        color: #626262;
+        text-align: center;
+        margin-top: 66/$rem*1rem;
+        position: relative;
+        span{
+            font-size: 38/$rem*1rem;
+            color: #626262;
+            font-weight: bold;
+            position: absolute;
+            left:30/$rem*1rem;
+            top:12/$rem*1rem;
+        }
+    }
+    div:nth-child(2){
+            width: 670/$rem*1rem;
+            height: 85/$rem*1rem;
+            margin: 336/$rem*1rem auto;
+        input{
+            border: 3/$rem*1rem solid #626262;
+            background-color: transparent;
+            border-radius: 10/$rem*1rem;
+            font-size: 40/$rem*1rem;
+            width: 670/$rem*1rem;
+            height: 85/$rem*1rem;
+            padding: 36/$rem*1rem;
+        }
+        input:last-child{
+            margin-top: 60/$rem*1rem;
+        }
+    }
+    div:last-child{
+        width:473/$rem*1rem;
+        height: 87/$rem*1rem;
+        margin: -100/$rem*1rem auto;
+        text-align: center;
+        font-size: 40/$rem*1rem;
+        color: white;
+        background: url(../images/kuang@2x.png)no-repeat;
+        background-size: 100% 100%;
+        line-height:  87/$rem*1rem;
+    }
+    div:last-child:hover{
+        background: url(../images/kaung2@2x.png)no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+.page4{
+    width: 100%;
+    height:100vh;
+    background:url(../images/page4@2x.png)no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    z-index: -1;
+}
+.page45{
+    width: 100%;
+    height: auto;
+    background: url(../images/dise@2x.png)no-repeat;
+    background-size:100%;
+#meili{
+        width: 100%;
+        height:80/$rem*1rem;
+        font-size: 43/$rem*1rem;
+        color: #626262;
+        text-align: center;
+        margin-top:70/$rem*1rem;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+        margin: 20/$rem*1rem 20/$rem*1rem;
+    }
+.swiper-pagination-bullet{
+            width: 20/$rem*1rem;
+            height: 20/$rem*1rem;
+            background: #903d23;
+    }
+
+.mokuai{
+    width: 670/$rem*1rem;
+    height:515/$rem*1rem;
+    margin: 32/$rem*1rem auto;
+    z-index: 99;
+    box-shadow:2/$rem*1rem 2/$rem*1rem 10/$rem*1rem #626262;
+    div{
+        width:670/$rem*1rem;
+        height:210/$rem*1rem;
+        background: url(../images/mokuaitiao@2x.png)no-repeat;
+        background-size: 100%; 
+        margin-top: -450/$rem*1rem;
+        position: relative;
+        z-index: 999;
+        i{
+            font-size:55/$rem*1rem;
+            font-weight:600;
+            position: absolute;
+            left:30/$rem*1rem;
+            top:30/$rem*1rem;
+            color: white;
+        }
+        span{
+            font-size:25/$rem*1rem;
+            position: absolute;
+            left:100/$rem*1rem;
+            top:120/$rem*1rem;
+            color: white;
+            }
+        }
+    }
+}
+.dingbu{
+    width: 100%;
+    height:40/$rem*1rem;
+    background: url(../images/dingbu@2x.png)no-repeat;
+    background-size: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    text-align: left;
+    color: white;
+    font-size: 30/$rem*1rem;
+    line-height: 40/$rem*1rem;
+}
+.pagedibu{
+    width: 100%;
+    height:98/$rem*1rem;
+    background: url(../images/dibubei@2x.png)no-repeat;
+    background-size: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    flex-wrap: wrap;
+    div{
+        width: 33%;
+        height: auto;
+    }
+    .iconfont:first-child{
+        font-size:50/$rem*1rem;
+        color: #ea8464;
+        margin-top: 5/$rem*1rem;
+         p{
+            margin-top: -5/$rem*1rem;
+            color: #ea8464;
+        }
+    }
+    .iconfont:nth-child(2){
+        font-size:62/$rem*1rem;
+        margin-top: -5/$rem*1rem;
+        color: white;
+        p{
+            margin-top: -8/$rem*1rem;
+        }
+    }
+    .iconfont:last-child{
+        font-size:68/$rem*1rem;
+        color:#ea8464;
+        margin-top: -5/$rem*1rem;
+        p{
+            margin-top: -12/$rem*1rem;
+            color: #ea8464;
+        }
+    }
+    p{
+        font-size: 25/$rem*1rem;
+        color: white;
+    }
+}
+
+.mokuai5-1{
+    width: 670/$rem*1rem;
+    height:auto;
+    margin: 0/$rem*1rem auto;
+    z-index: 1;
+    box-shadow:2/$rem*1rem 2/$rem*1rem 10/$rem*1rem #626262;
+    position: relative;
+    div{
+        width: 335/$rem*1rem;
+        height:320/$rem*1rem;
+        background: url(../images/mokuai511@2x.png);
+        text-align:left;
+        position: absolute;
+        top:330/$rem*1rem;
+        padding:45/$rem*1rem;
+        p{
+            color: white;
+            font-size:30/$rem*1rem;
+            font-family: "华文仿宋";
+            margin-top: 50/$rem*1rem;
+        }
+    }
+    i{
+        position: absolute;
+    }
+}
+.mokuai5-2{
+    width: 670/$rem*1rem;
+    height:auto;
+    margin:30/$rem*1rem auto;
+    z-index: 1;
+    box-shadow:2/$rem*1rem 2/$rem*1rem 10/$rem*1rem #626262;
+    position: relative;
+    img{
+        width: 670/$rem*1rem;
+        height:320/$rem*1rem;
+    }
+    i{
+        position: absolute;
+        img{
+            width: 100/$rem*1rem;
+            height: 100/$rem*1rem;
+        }
+    }
+}
+
+.mokuai6-1{
+    div{
+        width: 100%;
+        height:420/$rem*1rem;
+        background: url(../images/mokuai6@2x.png)no-repeat;
+        background-size:100%;
+        img{
+           width: 200/$rem*1rem;
+            height: 200/$rem*1rem;
+            margin: 100/$rem*1rem auto;
+        }
+        p{
+            font-size:50/$rem*1rem;
+            color: white;
+            text-align: center;
+            font-weight:600;
+            display: block;
+            margin: -100/$rem*1rem auto;
+        }
+    }
+}
+
+.mokuai6-2{
+        width: 100%;
+        height:130/$rem*1rem;
+        border-bottom: 1/$rem*1rem solid #626262;
+        p{
+            font-size: 35/$rem*1rem;
+            color: #626262;
+            text-align: left;
+            font-weight:500;
+            line-height:130/$rem*1rem;
+            margin-left: 40/$rem*1rem;
+        }
+}

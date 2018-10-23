@@ -1,0 +1,148 @@
+@charset "UTF-8";
+* {
+  padding: 0rem;
+  margin: 0rem;
+  font-family: "微软雅黑"; }
+
+li {
+  list-style: none; }
+
+
+#page1 {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/beijing@2x.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden; }
+  #page1 p {
+    width: 0.26667rem;
+    height: auto;
+    margin-left: 8.22667rem;
+    margin-top: 1.13333rem;
+    font-family: "华文仿宋";
+    font-size: 0.33333rem; }
+  #page1 div {
+    width: 3.73333rem;
+    height: 6.04rem;
+    margin: -1.2rem auto;
+    position: relative; }
+    #page1 div div {
+      display: inline-block;
+      width: auto;
+      height: auto;
+      position: absolute; }
+    #page1 div div:first-child {
+      left: 0.85333rem;
+      z-index: 999; }
+      #page1 div div:first-child img {
+        width: 1.93333rem;
+        height: 2.16rem; }
+    #page1 div div:nth-child(3) {
+      left: 0.42667rem;
+      top: 3.33333rem;
+      z-index: 999; }
+      #page1 div div:nth-child(3) img {
+        width: 1.93333rem;
+        height: 2.16rem; }
+    #page1 div div:nth-child(2) {
+      top: 1rem; }
+      #page1 div div:nth-child(2) #yuan {
+        width: 3.41333rem;
+        height: 3.41333rem; }
+    #page1 div div:last-child {
+      top: 1.33333rem;
+      left: 1.06667rem; }
+      #page1 div div:last-child img {
+        width: 2.66667rem;
+        height: 4.66667rem; }
+  #page1 #deng {
+    color: white;
+    margin: 1.06667rem auto;
+    width: 8.93333rem;
+    height: 1.13333rem;
+    background: url(../images/kuang@2x.png) no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.53333rem;
+    line-height: 1.06667rem;
+    text-align: center; }
+  #page1 #deng:hover {
+    background: url(../images/kaung2@2x.png) no-repeat;
+    background-size: 100% 100%; }
+  #page1 #zhu {
+    color: white;
+    margin: 1.06667rem auto;
+    width: 8.93333rem;
+    height: 1.13333rem;
+    background: url(../images/kuang@2x.png) no-repeat;
+    background-size: 100%;
+    font-size: 0.53333rem;
+    line-height: 1.06667rem;
+    text-align: center; }
+  #page1 #zhu:hover {
+    background: url(../images/kaung2@2x.png) no-repeat;
+    background-size: 100% 100%; }
+
+.page2 {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/page2beijing@2x.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden; }
+  .page2 div:first-child {
+    width: 100%;
+    height: 0.53333rem;
+    font-size: 0.6rem;
+    color: #626262;
+    text-align: center;
+    margin-top: 0.88rem;
+    position: relative; }
+    .page2 div:first-child span {
+      font-size: 0.50667rem;
+      color: #626262;
+      font-weight: bold;
+      position: absolute;
+      left: 0.4rem;
+      top: 0.16rem; }
+  .page2 div:nth-child(2) {
+    width: 8.93333rem;
+    height: 1.13333rem;
+    margin: 4.48rem auto; }
+    .page2 div:nth-child(2) input {
+      border: 0.04rem solid #626262;
+      background-color: transparent;
+      border-radius: 0.13333rem;
+      font-size: 0.53333rem;
+      width: 8.93333rem;
+      height: 1.13333rem;
+      padding: 0.48rem; }
+    .page2 div:nth-child(2) input:last-child {
+      margin-top: 0.8rem; }
+  .page2 div:last-child {
+    width: 6.30667rem;
+    height: 1.16rem;
+    margin: -1.33333rem auto;
+    text-align: center;
+    font-size: 0.53333rem;
+    color: white;
+    background: url(../images/kuang@2x.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: 1.16rem; }
+  .page2 div:last-child:hover {
+    background: url(../images/kaung2@2x.png) no-repeat;
+    background-size: 100% 100%; }
+
+.page4 {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/page4@2x.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden; }
+  .page4 #meili {
+    width: 100%;
+    height: 1.06667rem;
+    font-size: 0.6rem;
+    color: #626262;
+    text-align: center;
+    margin-top: 0.88rem; }
+
+/*# sourceMappingURL=sass.css.map */
